@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>window widget demo</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/window.css"/>
+		<style type="text/css">
+			#a,#b,#c,#d{ margin: 10px; }
+		</style>
+	</head>
+	<body>
+		<input type="button" id="a" value="alert弹窗" />
+		<input type="button" id="b" value="confirm弹窗" />
+		<input type="button" id="c" value="prompt弹窗" />
+		<input type="button" id="d" value="common弹窗" />
+	</body>
+	<!--data-main属性的作用是，指定网页程序的主模块。 自定义属性（一定要加上！）-->
+	<!--由于require.js默认的文件后缀名是js，所以可以把main.js简写成main-->
+	<script src="js/require.js" data-main = "js/main"></script>
+</html>
